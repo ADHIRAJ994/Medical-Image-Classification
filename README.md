@@ -431,9 +431,6 @@ This tool aims to **assist**, not **replace**, medical professionals. AI should 
 
 📧 Email: youradhi20@gmail.com | 💼 LinkedIn: [https://www.linkedin.com/in/adhiraj-chakravorty-788685344/](https://www.linkedin.com/in/adhiraj-chakravorty-788685344/) | 🐱 GitHub: [https://github.com/ADHIRAJ994](https://github.com/ADHIRAJ994)
 
-### Project Links
-🔗 Repository: [github.com/yourusername/pneumonia-detection](https://github.com/yourusername/pneumonia-detection) | 🐛 Issues: [github.com/yourusername/pneumonia-detection/issues](https://github.com/yourusername/pneumonia-detection/issues)
-
 
 <div align="center">
 
