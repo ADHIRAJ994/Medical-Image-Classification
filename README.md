@@ -974,101 +974,17 @@ This tool aims to **assist**, not **replace**, medical professionals. AI should 
 - [ ] Integration with hospital PACS systems
 - [ ] Clinical validation studies
 
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how you can help:
-
-### Reporting Bugs
-Use GitHub Issues | Include screenshots and error messages | Describe steps to reproduce
-
-### Suggesting Features
-Open a Feature Request issue | Explain the use case | Provide examples if possible
-
-### Code Contributions
-
-1. **Fork the repository**
-2. **Create a feature branch:** `git checkout -b feature/AmazingFeature`
-3. **Commit your changes:** `git commit -m 'Add some AmazingFeature'`
-4. **Push to the branch:** `git push origin feature/AmazingFeature`
-5. **Open a Pull Request**
-
-### Code Style
-Follow PEP 8 guidelines | Add docstrings to functions | Include unit tests for new features | Update README if needed
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
-```
-MIT License
-
-Copyright (c) 2024 [Your Name]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
----
 
 ## 📞 Contact
 
 ### Author
-**Your Name**
+**Adhiraj Chakravorty**
 
-📧 Email: your.email@example.com | 💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile) | 🐱 GitHub: [@yourusername](https://github.com/yourusername) | 🌐 Portfolio: [yourportfolio.com](https://yourportfolio.com)
+📧 Email: youradhi20@gmail.com | 💼 LinkedIn: [https://www.linkedin.com/in/adhiraj-chakravorty-788685344/](https://www.linkedin.com/in/adhiraj-chakravorty-788685344/) | 🐱 GitHub: [https://github.com/ADHIRAJ994](https://github.com/ADHIRAJ994)
 
 ### Project Links
 🔗 Repository: [github.com/yourusername/pneumonia-detection](https://github.com/yourusername/pneumonia-detection) | 🐛 Issues: [github.com/yourusername/pneumonia-detection/issues](https://github.com/yourusername/pneumonia-detection/issues)
 
----
-
-## 🙏 Acknowledgments
-
-### Dataset
-**Kermany et al.** (2018) for the chest X-ray dataset | Kaggle community for hosting the dataset
-
-### Frameworks & Libraries
-TensorFlow team for the amazing framework | Streamlit team for the intuitive web app library | MobileNetV2 authors (Sandler et al., 2018)
-
-### Inspiration
-Grad-CAM paper by Selvaraju et al. (2017) | Stanford ML Group's CheXNet paper | Fast.ai medical imaging course
-
-### References
-
-1. Kermany, D. S., et al. (2018). "Identifying Medical Diagnoses and Treatable Diseases by Image-Based Deep Learning." *Cell*, 172(5), 1122-1131.
-
-2. Sandler, M., et al. (2018). "MobileNetV2: Inverted Residuals and Linear Bottlenecks." *CVPR*.
-
-3. Selvaraju, R. R., et al. (2017). "Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization." *ICCV*.
-
-4. Rajpurkar, P., et al. (2017). "CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning." *arXiv preprint arXiv:1711.05225*.
-
----
-
-## ⭐ Show Your Support
-
-If this project helped you, please consider:
-⭐ Starring the repository | 🍴 Forking for your own experiments | 📢 Sharing with others | 💬 Providing feedback
-
----
 
 <div align="center">
 
