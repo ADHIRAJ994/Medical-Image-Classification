@@ -79,7 +79,7 @@ with st.sidebar:
 # Load model
 @st.cache_resource
 def load_model():
-    model_path = r'models/mobilenet_best.h5"'
+    model_path = r'models/mobilenet_best.h5'
     try:
         model = tf.keras.models.load_model(model_path)
         return model, None
