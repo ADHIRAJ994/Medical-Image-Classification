@@ -221,7 +221,7 @@ with col1:
     if uploaded_file is not None:
         # Display uploaded image
         image = Image.open(uploaded_file)
-        st.image(image, caption='Uploaded X-Ray Image', use_container_width=True)
+        st.image(image, caption='Uploaded X-Ray Image', use_column_width=True)
         
         # Add some spacing
         st.markdown("<br>", unsafe_allow_html=True)
@@ -230,7 +230,7 @@ with col1:
         analyze_button = st.button(
             "🔍 Analyze Image",
             type="primary",
-            use_container_width=True
+            use_column_width=True
         )
         
         if analyze_button:
@@ -326,7 +326,7 @@ with col2:
             st.image(
                 st.session_state.overlay,
                 caption='Grad-CAM Overlay - Model Focus Areas',
-                use_container_width=True
+                use_column_width=True
             )
         
         with tab2:
