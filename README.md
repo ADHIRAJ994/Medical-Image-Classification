@@ -1,3 +1,11 @@
+title: Customer Churn Prediction
+emoji: 📊
+colorFrom: blue
+colorTo: green
+sdk: streamlit
+app_file: app.py
+pinned: false
+
 markdown# 🫁 Pneumonia Detection from Chest X-Rays
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/) [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15-orange.svg)](https://www.tensorflow.org/) [![Streamlit](https://img.shields.io/badge/Streamlit-1.29-red.svg)](https://streamlit.io/) [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
