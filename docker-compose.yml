@@ -1,0 +1,28 @@
+version: "3.8"
+
+services:
+  pneumonia-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: pneumonia-detection
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./models:/app/models
+    environment:
+      - TF_CPP_MIN_LOG_LEVEL=3
+      - PYTHONHASHSEED=42
+    restart: unless-stopped
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "curl",
+          "-f",
+          "http://localhost:8501/_stcore/health"
+        ]
+      interval: 30s
+      timeout: 30s
+      retries: 3
+      start_period: 60s
