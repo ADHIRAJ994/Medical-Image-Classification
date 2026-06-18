@@ -77,12 +77,31 @@ with st.sidebar:
     st.markdown("**Built with:** TensorFlow, Keras & Streamlit")
 
 # Load model
+# NEW - Relative path (works in Docker and locally)
 @st.cache_resource
 def load_model():
-    model_path = r'models/mobilenet_best.h5'
     try:
+        import os
+
+        possible_paths = [
+            'models/mobilenet_best.h5',
+            './models/mobilenet_best.h5',
+            'mobilenet_best.h5',
+            './mobilenet_best.h5'
+        ]
+
+        model_path = None
+        for path in possible_paths:
+            if os.path.exists(path):
+                model_path = path
+                break
+
+        if model_path is None:
+            return None, "Model file not found in models/ folder"
+
         model = tf.keras.models.load_model(model_path)
         return model, None
+
     except Exception as e:
         return None, str(e)
 
